@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom"
+    app:startDestination="@id/homeActivity">
+
+    <fragment
+        android:id="@+id/homeActivity"
+        android:name="com.example.bakpak.HomeActivity"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeActivity_to_cartActivity"
+            app:destination="@id/cartActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartActivity"
+        android:name="com.example.bakpak.CartActivity"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

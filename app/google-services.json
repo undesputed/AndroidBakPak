@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "715738033075",
+    "firebase_url": "https://bakpak-20a83.firebaseio.com",
+    "project_id": "bakpak-20a83",
+    "storage_bucket": "bakpak-20a83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715738033075:android:290d94015d128c6f",
+        "android_client_info": {
+          "package_name": "com.example.bakpak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715738033075-g597u5sj5gvtmtp0o648q7bph2jkpfda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bakpak",
+            "certificate_hash": "56e71d98768f87c6327945641b32098cca39e258"
+          }
+        },
+        {
+          "client_id": "715738033075-jgrsgu7f06ok5000ca373meuiqusccmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHp2BKVrjU8mgs22edVCIViKDQ1F5RW4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715738033075-jgrsgu7f06ok5000ca373meuiqusccmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
